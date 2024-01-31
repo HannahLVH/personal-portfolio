@@ -1,0 +1,86 @@
+:root {
+    --salmon: #fa8072;
+    --black: #000000;
+
+}
+
+body {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+    font-size: 1.4rem;
+    /* background: linear-gradient(salmon, white); */
+}
+
+body h1, h2, h3, h4 {
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+}
+
+body p {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* nav styling */
+
+.nav-container {
+    border-width: auto;
+    padding: 20px;
+    background-color: var(--salmon);
+}
+
+.nav-menu-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.nav-link-styling a:link {
+    color: var(--black);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link-styling a:visited{
+    color: var(--black);
+}
+
+/* content section styling */
+
+.content-section {
+    background-image: linear-gradient(salmon, white);
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text-container span {
+    font-weight: bolder;
+}
+
+.text-container a:link {
+    color: var(--black)
+}
+
+.text-container a:visited {
+    color: var(--black)
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-list-styling {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}

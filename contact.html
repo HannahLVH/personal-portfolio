@@ -3,45 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Contact</title>
+    <title>Portfolio Index</title>
+    <link rel="stylesheet" type="text/css" href="./public/styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
 </head>
+<!-- nav section -->
 <body>
-    <nav>
-        <ul>
-            <li><a href=index.html>Home</a></li>
-            <li><a href=about.html>About</a></li>
-            <li><a href=projects.html>Projects</a></li>
-            <li><a href=contact.html>Contact</a></li>
-        </ul>
+    <nav class="nav-container">
+        <div class="nav-menu-container">
+            <ul class="nav-menu-list nav-link-styling">
+                <li><a href=index.html>Home</a></li>
+                <li><a href=about.html>About</a></li>
+                <li><a href=projects.html>Projects</a></li>
+                <li><a href=contact.html>Contact</a></li>
+            </ul>
+        </div>
     </nav>
-    <header>
-        <h1>Send Message</h1>
-    </header>
-    <form>
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" />
+<!-- content selection -->
+    <div class="content-section">
+        <br>
+        <div class="text-container">
+        <header>
+            <h1>Send Message</h1>
+        </header>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" />
+            </div>
+            <br>
+            <div>
+                <label for="email>">Email:</label>
+                <input type="email" name="email" id="email" />
+            </div>
+            <br>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <br>
+            <button>Send</button>
+        </form>
+        <aside>
+            <h2>Contact:</h2>
+            <!-- <a href="tel: xxxxxxxxxx">(123)-456-7890</a> -->
+            <a href="mailto: hannahlopez.violin@gmail.com">hannahlopez.violin@gmail.com</a>
+            <!-- <br>
+            <a href="https://www.linkedin.com/in/hannahlopezviolin/"><img src="./public/images/" alt="blue letters i and n on a white background representing the linkedin logo" width="80" heigth="80"></a>
+            <a href="https://github.com/HannahLVH"><img src="./images/github-transparent-logo.png" alt="white shadow of a cat with its tail waving to the left, the cat is surround by a circle filled with different shades of blue representing the github logo" width="70" heigth="70"></a> -->
+        </aside>
         </div>
-        <br>
-        <div>
-            <label for="email>">Email:</label>
-            <input type="email" name="email" id="email" />
-        </div>
-        <br>
-        <div>
-            <label for="message">Message</label>
-            <textarea id="message" name="message"></textarea>
-        </div>
-        <br>
-        <button>Send</button>
-    </form>
-    <aside>
-        <h2>Contact:</h2>
-        <a href="tel: xxxxxxxxxx">(123)-456-7890</a>
-        <a href="mailto: hannahlopez.violin@gmail.com">hannahlopez.violin@gmail.com</a>
-        <br>
-        <a href="https://www.linkedin.com/in/hannahlopezviolin/"><img src="./images/linkedin-logo-transparent.webp" alt="blue letters i and n on a white background representing the linkedin logo" width="80" heigth="80"></a>
-        <a href="https://github.com/HannahLVH"><img src="./images/github-transparent-logo.png" alt="white shadow of a cat with its tail waving to the left, the cat is surround by a circle filled with different shades of blue representing the github logo" width="70" heigth="70"></a>
-    </aside>
+    </div>
 </body>
 </html>
